@@ -3,7 +3,6 @@
   width: 95%;
   padding-top: 8px;
   font-family: arial;
-  font-size: 10pt;
   text-align: right;
   display: inline;
 
@@ -11,7 +10,7 @@
 
 #header a {
   padding: 8px;
-  font-family: Helvetica;
+  font-family: arial;
   font-size: 10pt;
   color: #454647;
   text-decoration: none;
