@@ -1,69 +1,58 @@
-#header {
+.header {
   position: fixed;
   width: 95%;
   padding-top: 8px;
   font-family: arial;
   text-align: right;
   display: inline;
-
 }
-
-#header a {
+.header a {
   padding: 8px;
   font-family: arial;
   font-size: 10pt;
   color: #454647;
   text-decoration: none;
 }
-
-#header a:link {
-  text-decoration: none;
-}
-#header a:visited {
-  text-decoration: none;
-}
-#header a:hover {
-    text-decoration: underline;
-}
-
-#signin {
+.header .signin {
     display: inline-block;
     margin-left: 8px;
     height: 14px;
     width: 54px;
+    text-decoration: none;
     background-color: #5092fc;
     color: #ffffff;
     font-weight:bold;
     border-radius: 2px;
     text-align: center;
-  }
-
-  /*   I can't seem to get the signin button to have a different text colour
-  or different pseudo-element settings from the other links in the header.
-  How do I create a unique class WITHIN the div class? */
-
-  #signin a:link {
+}
+.header a:link {
+  text-decoration: none;
+}
+.header a:visited {
+  text-decoration: none;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+a.signin:hover {
     text-decoration: none;
-  }
-  #signin a:visited {
-    text-decoration: none;
-  }
-  #signin a:hover {
-    text-decoration: none;
-  }
+}
+
+  /*   I was told to go a.signin:Hover here, aka tag.class:pseudo
+  This is confusing to me because I have read elsewhere to go .class tag:pseudo
+  But Apparently there are many ways to do things in CSS.
+  I was recommended this article for more information:
+  http://ifyoucodeittheywill.com/2009/04/cascade-in-css-tags-classes-pseudoclasses-etc/ */
 
 
-
-
-
-#logo {
+.logo {
   margin: auto;
   max-height: 150px;
   max-width: 300px;
   padding: 200px 0;
 }
 
-#logo img {
+.logo img {
   width:92%;
   height:auto;
 }
